@@ -1,0 +1,67 @@
+---
+settings:
+  name: Amazon S3 storage
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr
+sidebar:
+  entries:
+  - title: Amazon S3 스토리지 문서
+    url: "/index.html"
+  - title: 릴리스 정보
+    url: "/whats-new.html"
+  - title: 시작하십시오
+    entries:
+    - title: Amazon S3 버킷을 확인합니다
+      url: "/task-viewing-amazon-s3.html"
+  - title: S3 버킷을 관리합니다
+    entries:
+    - title: S3 버킷을 추가합니다
+      url: "/task-add-s3-bucket.html"
+    - title: S3 버킷 설정을 변경합니다
+      url: "/task-change-s3-bucket-settings.html"
+    - title: S3 버킷과 NetApp 데이터 서비스 사용
+      url: "/task-s3-enable-data-services.html"
+  - title: 지식 및 지원
+    entries:
+    - title: 지원을 위해 등록하십시오
+      url: "/task-support-registration.html"
+    - title: 도움을 받으십시오
+      url: "/task-get-help.html"
+  - title: 법적 고지
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: Amazon S3 버킷을 확인합니다
+      url: task-viewing-amazon-s3.html
+  - title: S3 버킷을 관리합니다
+    links:
+    - title: S3 버킷을 추가합니다
+      url: task-add-s3-bucket.html
+    - title: 버킷 설정을 변경합니다
+      url: task-change-s3-bucket-settings.html
+    - title: S3 버킷과 NetApp 데이터 서비스 사용
+      url: task-s3-enable-data-services.html
+  - title: 추가 정보
+    links:
+    - title: BlueXP 외부의 관리를 위한 Amazon S3 문서
+      url: https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-buckets-s3.html
+  - title: 블로그 및 커뮤니티
+    links:
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: BlueXP 블로그
+      url: https://bluexp.netapp.com/blog/topic/cloud-manager
+    - title: 클라우드 웨비나
+      url: https://bluexp.netapp.com/events
+product-family:
+  name: BlueXP
+  repo: cloud-manager-family
+  sidebar_label: 모든 BlueXP 설명서

@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: task-viewing-amazon-s3.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: AWS에 Connector를 설치한 후 BlueXP는 Connector가 설치된 AWS 계정에 있는 Amazon S3 버킷에 대한 정보를 자동으로 검색할 수 있습니다. Amazon S3 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다. 
+---
+= Amazon S3 버킷을 봅니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+AWS에 Connector를 설치한 후 BlueXP는 Connector가 설치된 AWS 계정에 있는 Amazon S3 버킷에 대한 정보를 자동으로 검색할 수 있습니다. Amazon S3 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다.
+
+지역, 액세스 정책, 계정, 총 용량 및 사용된 용량 등을 비롯한 S3 버킷에 대한 세부 정보를 볼 수 있습니다. 이러한 버킷은 Cloud Backup, Cloud Tiering 또는 Cloud Sync 작업의 대상으로 사용할 수 있습니다. 또한, Cloud Data Sense를 사용하여 이러한 버킷을 스캔할 수 있습니다.
+
+.단계
+. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["커넥터를 설치합니다"^] AWS 계정에서 Amazon S3 버킷을 확인할 수 있습니다.
+. 탐색 메뉴에서 * Storage > Canvas * 를 선택합니다.
++
+잠시 후 Amazon S3 작업 환경이 자동으로 표시됩니다.
+
++
+image:screenshot-amazon-s3-we.png["Amazon S3 작업 환경의 스크린샷"]
+
+. S3 스토리지에서 BlueXP 서비스를 활성화하려면 작업 환경을 클릭하고 오른쪽 창에서 작업을 선택합니다.
++
+image:screenshot-amazon-s3-actions.png["Amazon S3 작업 환경을 선택한 후 작업 창을 보여 주는 스크린샷 이 창에는 S3에 대한 정보, 즉 버킷 수 및 사용 가능한 서비스가 표시됩니다."]
+
++
+link:task-s3-enable-data-services.html["사용 가능한 BlueXP 서비스를 확인하고 S3 버킷을 사용하는 방법에 대해 알아보십시오"].
+
+. AWS 계정에서 S3 버킷에 대한 세부 정보를 보려면 * 작업 환경 입력 * 을 클릭하거나 작업 환경을 두 번 클릭합니다.
++
+image:screenshot-amazon-s3-buckets.png["Amazon S3 작업 환경의 세부 정보, 즉 총 버킷 수 및 총 지역 수, 각 S3 버킷에 대한 세부 정보를 보여 주는 표를 보여 주는 스크린샷"]
+
++
+기본적으로 나타나는 열 외에도 페이지를 스크롤하여 버킷의 추가 속성(예: 태그 수, 개체 잠금 또는 버전 관리 사용 여부)을 볼 수 있습니다.
+
+
+
+.다음 단계
+을 클릭하여 BlueXP에서 직접 일부 버킷 설정을 변경할 수 있습니다 image:button-horizontal-more.gif["세 개의 점 더 보기 단추"] 버킷을 위해. link:task-change-s3-bucket-settings.html["자세한 내용을 보려면 여기를 클릭하십시오"].
+
+버킷 추가 * 를 클릭하여 새 S3 버킷을 추가할 수 있습니다. link:task-add-s3-bucket.html["자세한 내용을 보려면 여기를 클릭하십시오"].
