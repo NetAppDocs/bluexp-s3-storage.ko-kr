@@ -19,7 +19,7 @@ AWS에 Connector를 설치한 후 BlueXP는 Connector가 설치된 AWS 계정에
 지역, 액세스 정책, 계정, 총 용량 및 사용된 용량 등을 비롯한 S3 버킷에 대한 세부 정보를 볼 수 있습니다. 이러한 버킷은 Cloud Backup, Cloud Tiering 또는 Cloud Sync 작업의 대상으로 사용할 수 있습니다. 또한, Cloud Data Sense를 사용하여 이러한 버킷을 스캔할 수 있습니다.
 
 .단계
-. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["커넥터를 설치합니다"^] AWS 계정에서 Amazon S3 버킷을 확인할 수 있습니다.
+. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["커넥터를 설치합니다"^] AWS 계정에서 Amazon S3 버킷을 확인할 수 있습니다.
 . 탐색 메뉴에서 * Storage > Canvas * 를 선택합니다.
 +
 잠시 후 Amazon S3 작업 환경이 자동으로 표시됩니다.
