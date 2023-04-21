@@ -2,8 +2,8 @@
 layout: astra 
 sidebar: sidebar 
 permalink: index.html 
-lead: 'Get started using Amazon S3 storage with your BlueXP system (formerly Cloud Manager).' 
-summary: 'BlueXP 시스템(이전의 Cloud Manager)에서 Amazon S3 스토리지를 사용해 보십시오.' 
+lead: Get started using Amazon S3 storage with your BlueXP system. 
+summary: BlueXP 시스템에서 Amazon S3 스토리지를 사용해 보십시오. 
 ---
 = Amazon S3 스토리지 문서
 :hardbreaks:
