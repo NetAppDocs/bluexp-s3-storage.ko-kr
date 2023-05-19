@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, backup, restore' 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
 summary: BlueXP의 Amazon S3 스토리지의 새로운 기능에 대해 알아보십시오. 
 ---
 = BlueXP의 Amazon S3 스토리지의 새로운 기능
@@ -24,4 +24,4 @@ BlueXP의 Amazon S3 스토리지의 새로운 기능에 대해 알아보십시�
 
 === BlueXP에서 새 버킷을 추가할 수 있습니다
 
-BlueXP Canvas에서 Amazon S3 버킷을 잠시 볼 수 있었습니다. 이제 BlueXP에서 직접 새 버킷을 추가하고 기존 버킷을 위한 속성을 변경할 수 있습니다. https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["새 Amazon S3 버킷을 추가하는 방법을 알아보십시오"^].
+BlueXP Canvas에서 Amazon S3 버킷을 잠시 볼 수 있었습니다. 이제 BlueXP에서 직접 새 버킷을 추가하고 기존 버킷을 위한 속성을 변경할 수 있습니다. https://["새 Amazon S3 버킷을 추가하는 방법을 알아보십시오"^].
