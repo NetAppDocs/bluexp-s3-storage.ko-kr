@@ -35,7 +35,7 @@ image:screenshot-edit-amazon-s3-bucket.png["버킷 속성을 편집하기 위해
 
 버전 관리를 사용하면 실수로 삭제하거나 덮어쓴 개체를 복원할 수 있도록 버킷에 여러 버전의 개체를 유지할 수 있습니다. 버킷에 추가될 때 이후의 개체에 대한 버전 관리 설정을 변경할 수 있습니다. 버전 관리 설정을 변경해도 기존 개체의 값은 변경되지 않습니다.
 
-버킷을 만들 때 개체 잠금을 활성화하지 않은 경우 BlueXP에서 생성된 새 버킷에서는 버전 관리가 기본적으로 비활성화됩니다. https://["Amazon S3 문서에서 버전 관리에 대해 자세히 알아보십시오"^].
+버킷을 만들 때 개체 잠금을 활성화하지 않은 경우 BlueXP에서 생성된 새 버킷에서는 버전 관리가 기본적으로 비활성화됩니다. https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html["Amazon S3 문서에서 버전 관리에 대해 자세히 알아보십시오"^].
 
 일단 활성화되면, 일시적으로 또는 영구적으로 버전 관리를 중지하려면 "일시 중단됨" 상태를 선택할 수 있습니다. 버전 관리를 사용하도록 설정한 후에는 해제할 수 없습니다.
 
@@ -47,7 +47,7 @@ image:screenshot-amazon-s3-versioning.png["버킷의 버전 관리 설정을 변
 
 태그는 리소스를 그룹화하여 애플리케이션, 환경, 지역, 클라우드 공급자 등을 식별하는 데 사용할 수 있는 메타데이터입니다. 태그는 태그 키와 태그 값으로 구성됩니다. 버킷에 태그를 추가하여 버킷에 태그를 추가할 때 오브젝트에 태그를 적용할 수 있습니다. 태그 및 태그 값을 변경하거나 삭제할 수도 있습니다.
 
-BlueXP에서 생성된 새 버킷에서는 기본적으로 태그가 비활성화됩니다. https://["Amazon S3 문서에서 태그 지정에 대해 자세히 알아보십시오"^].
+BlueXP에서 생성된 새 버킷에서는 기본적으로 태그가 비활성화됩니다. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["Amazon S3 문서에서 태그 지정에 대해 자세히 알아보십시오"^].
 
 image:screenshot-amazon-s3-tags.png["버킷에 대해 새 태그 키/값 쌍을 추가하는 방법을 보여 주는 스크린샷"]
 
@@ -59,7 +59,7 @@ image:screenshot-amazon-s3-tags.png["버킷에 대해 새 태그 키/값 쌍을 
 
 서버측 암호화를 통해 Amazon S3 대상에서 데이터를 암호화할 수 있습니다. Amazon S3는 오브젝트 수준에서 데이터를 디스크에 쓸 때 암호화하고 액세스할 때 해독합니다. 버킷에 추가될 때 향후 오브젝트에 사용되는 암호화 설정을 변경할 수 있습니다.
 
-암호화는 기본적으로 BlueXP에서 생성된 새 버킷에서 "Amazon S3 관리 키(SSE-S3)"를 사용하여 활성화됩니다. https://["Amazon S3 문서에서 서버측 암호화에 대해 자세히 알아보십시오"^].
+암호화는 기본적으로 BlueXP에서 생성된 새 버킷에서 "Amazon S3 관리 키(SSE-S3)"를 사용하여 활성화됩니다. https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["Amazon S3 문서에서 서버측 암호화에 대해 자세히 알아보십시오"^].
 
 또는 "AWS 키 관리 서비스 키(SSE-KMS)"를 사용하여 암호화를 사용하도록 선택할 수 있습니다. 고객 제공 키(SSE-C)를 사용하여 암호화를 수행할 수도 있지만, BlueXP UI를 통해 이 기능을 사용할 수 없습니다. Amazon 인터페이스를 사용해야 합니다.
 
@@ -69,4 +69,4 @@ image:screenshot-amazon-s3-encryption1.png["버킷에 사용되는 암호화 키
 
 image:screenshot-amazon-s3-encryption2.png["버킷의 대체 암호화 설정을 선택하는 방법을 보여 주는 스크린샷"]
 
-https://["Amazon S3 문서에서 AWS 키 관리 서비스에 대해 자세히 알아보십시오"^] 그리고 정보 https://["고객 키와 AWS 키를 동시에 사용합니다"^].
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingKMSEncryption.html["Amazon S3 문서에서 AWS 키 관리 서비스에 대해 자세히 알아보십시오"^] 그리고 정보 https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#key-mgmt["고객 키와 AWS 키를 동시에 사용합니다"^].
