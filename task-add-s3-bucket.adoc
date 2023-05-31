@@ -30,7 +30,7 @@ image:screenshot-add-amazon-s3-bucket.png["고유한 Amazon S3 버킷을 생성�
 . 버킷 추가 페이지에서 필요한 정보를 입력하여 버킷을 생성하고 * 적용 * 을 클릭합니다.
 +
 .. 버킷에 사용할 이름을 입력합니다.
-.. 버킷의 소유자가 될 AWS 계정을 선택합니다. 이 계정은 Connector가 배포된 기본 계정이거나 일 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["BlueXP에 추가한 다른 계정입니다"^].
+.. 버킷의 소유자가 될 AWS 계정을 선택합니다. 이 계정은 Connector가 배포된 기본 계정이거나 일 수 있습니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["BlueXP에 추가한 다른 계정입니다"^].
 .. 버킷을 생성할 AWS 영역을 선택합니다.
 .. 원하는 경우, 버킷에서 S3 오브젝트 잠금을 설정하여 WORM(Write-Once-Read-Many) 모델을 사용하여 오브젝트를 저장할 수 있습니다. 오브젝트 잠금을 사용하려는 경우 버킷을 생성할 때 이를 활성화해야 합니다. 개체 잠금을 사용하도록 설정하면 버전 관리도 활성화됩니다. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["Amazon S3 문서에서 오브젝트 잠금에 대해 자세히 알아보십시오"^].
 +
